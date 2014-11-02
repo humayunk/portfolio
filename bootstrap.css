@@ -266,6 +266,10 @@ th {
   src: url('../fonts/glyphicons-halflings-regular.eot');
   src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,300);
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+
 .glyphicon {
   position: relative;
   top: 1px;
@@ -5387,6 +5391,7 @@ button.close {
   -webkit-overflow-scrolling: touch;
   outline: 0;
 }
+
 .modal.fade .modal-dialog {
   -webkit-transition: -webkit-transform .3s ease-out;
        -o-transition:      -o-transform .3s ease-out;
@@ -5449,11 +5454,78 @@ button.close {
 .modal-title {
   margin: 0;
   line-height: 1.42857143;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: -0.02em;
+  font-weight: 400;
 }
 .modal-body {
   position: relative;
   padding: 15px;
 }
+
+.modal-body h4{
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 700;
+  color: #333332;
+  letter-spacing: 1px;
+  margin: 10px 0;
+}
+
+.modal-body h3{
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 700;
+  color: #333332;
+  letter-spacing: 1px;
+  margin: 25px 0;
+}
+
+.modal-body p {
+  font-size: 15px;
+  text-align: left !important;
+  padding: 0 10px;
+  margin-bottom: 0;
+}
+
+.modal-body a {
+  text-decoration: none !important;
+  border: none !important;
+}
+
+.modal-body ul li {
+  font-size: 15px;
+  text-align: left !important;
+  padding: 0 10px;
+  margin-bottom: 0;
+}
+
+
+.modal-button {
+    width: 120px;
+    text-align: center!important;
+    cursor: pointer;
+    -moz-border-radius: 3px; 
+    -webkit-border-radius: 3px; 
+    border-radius: 3px;
+    color: #ffffff !important;
+    background: #e67e22 !important;
+    border: none !important;
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    position: relative;
+    float: right;
+    height: 45px;
+    line-height: 20px;
+    transition: all 200ms ease-in-out 0s;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 15px;
+}
+
 .modal-footer {
   padding: 15px;
   text-align: right;

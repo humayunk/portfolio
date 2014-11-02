@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	
+
 
 	<meta charset="UTF-8">
 	<title>Humayun Khan</title>
-	
+
 	<!-- Bootstrap Core -->
 	<link rel="stylesheet" href="bootstrap.css">
 	<!-- Fonts -->
@@ -46,7 +46,7 @@
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">
 					<h1 class="brand-heading">Hi, I'm Humayun.</h1>
-					<p class="intro-text">Digital swiss army knife passionate about designing and developing <br> unforgettable human experiences.
+					<p class="intro-text">UX Designer and Developer looking to build cool sh**.
 					</p>
 					<div class="page-scroll">
 					<a href="#portfolio" class="button">See my work</a>
@@ -63,7 +63,7 @@
 		<div class="divider-grey"></div>
 		<div class="row">
 			<div class="profile-photo">
-				<img src="images/portfolio_03.png" alt="">
+				<img src="images/profilepic_03.png" alt="">
 			</div>
 			<div class="col-lg-8 col-lg-push-2 profile-text">
 				<p>I’m a marketing grad who dropped out of law school to pursue a career in technology. You can find me learning FEWD (HTML/CSS/JS) online at <a href="http://thinkful.com" target="blank">Thinkful</a>, design foundations at <a href="http://hackeryou.com" target="blank">HackerYou</a>, and UX at <a href="http://mysliderule.com" target="blank">SlideRule</a>. I never leave the house without my kindle or sketchbook.</p>
@@ -86,7 +86,7 @@
 			<div class="services">
 				<div class="col-lg-4">
 					<img src="images/icons_03.png" alt="">
-					<h3>Content</h3>
+					<h3>Copywriting</h3>
 					<p>I bring an expertise in seo, content marketing, and copywriting.</p>
 				</div>
 
@@ -104,7 +104,7 @@
 			</div>
 		</div>
 	</div>
-	
+
 </section>
 
 <section id="portfolio" class="content-section text-center">
@@ -113,9 +113,9 @@
 		<h2>My Portfolio</h2>
 		<div class="divider-grey"></div>
 		<div class="col-lg-10 col-lg-offset-1">
-			<p class="description-services">Here is a selection of concept and course projects I've done. My typical process <br>for these includes sketching, wirframing, visual mock-up, and code.</p>
+			<p class="description-services">Here is a selection of concept and course projects I've done. My typical process for these <br>varies, but can include sketching, wireframing, visual mock-up, and code.</p>
 		</div>
-	
+
 
 		<div class="container">
 
@@ -124,11 +124,13 @@
 				<div class="col-md-4">
 					<div class="grid mask">
 						<figure>
-							<img src="images/images_03.png" alt="">
+							<a data-toggle="modal" data-target="#LucovaModal" href="#LucovaModal"><img class="img-responsive" src="images/lucova_portfolio.jpg" alt=""></a>
+							<!--
 							<figcaption>
 								<h5>Lucova</h5>
-								<a href="https://www.behance.net/gallery/20872509/Lucova-Home-Page" class="button-full-small" target="blank">Full View</a>
+								<a data-toggle="modal" data-target="#LucovaModal" href="#LucovaModal" class="button-full-small" target="blank">Full View</a>
 							</figcaption>
+							-->
 							<!-- /figcaption -->
 						</figure>
 						<!-- /figure -->
@@ -136,16 +138,58 @@
 					<!-- /grid mask -->
 				</div>
 				<!-- /col -->
+
+				<!-- Modals 1 -->
+
+				<div id="LucovaModal" class="modal fade">
+				  <div class="modal-dialog">
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+				        <h4 class="modal-title">Lucova Home Page Concept</h4>
+				      </div>
+				      <div class="modal-body">
+							<p><strong>PROJECT:</strong> Lucova is an up and coming player in the mobile payments arena offering a whole suite of software to enable a more personable checkout experience. With it's patent-pending blue-tooth technology, it sought to distinguish itself from its competitors and solicit inbound requests for a technology demo. </p>
+
+							<p><strong>SKILLS USED:</strong> Wireframing, Illustrator, HTML, CSS</p>
+
+							<hr/>
+
+							<h3>Wireframe</h3>
+
+							<img src="images/lucova_wireframe.png" alt="">
+
+							<hr/>
+
+							<h3>Visual Mockup</h3>
+
+							<img src="images/lucova_homepage.png" alt="">
+
+							<hr/>
+
+							<h3>View Site</h3>
+
+							<a href="http://humayunk.github.io/lucova/" target="_blank"><img src="images/images_03.png" alt=""></a>
+				      </div>
+				      <div class="modal-footer">
+				        <button type="button" class="modal-button" data-dismiss="modal">Close</button>
+				      </div>
+				    </div>
+				  </div>
+				</div>
 
 				<!-- Portfolio Image 2 -->
 				<div class="col-md-4">
 					<div class="grid mask">
 						<figure>
-							<img src="images/images_06.png" alt="">
+							<a data-toggle="modal" data-target="#ccModal" href="#ccModal"><img class="img-responsive" src="images/cc_portfolio.jpg" alt=""></a>
+							
+							<!-- 
 							<figcaption>
 								<h5>Career Cruising </h5>
-								<a href="https://www.behance.net/gallery/20872791/Career-Cruising-Home-Page" class="button-full-small" target="blank">Full View</a>
+								<a data-toggle="modal" data-target="#ccModal" href="#ccModal"class="button-full-small" target="blank">Full View</a>
 							</figcaption>
+							-->
 							<!-- /figcaption -->
 						</figure>
 						<!-- /figure -->
@@ -153,33 +197,61 @@
 					<!-- /grid mask -->
 				</div>
 				<!-- /col -->
+
+				<!-- Modals 2 -->
+
+				<div id="ccModal" class="modal fade">
+				  <div class="modal-dialog">
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+				        <h4 class="modal-title">Lucova Home Page Concept</h4>
+				      </div>
+				      <div class="modal-body">
+							<p><strong>PROJECT:</strong> Career Cruising is an app I used in high-school and is a popular aid used to guide students through a mandated careers class in gr. 10 here in Ontario. Remembering back to the challenges I faced using the app when I was exploring careers, I wanted to explore the possibility of making career exploration as immersive and engaging as searching for a place to stay on Airbnb.  </p>
+
+							
+
+							<p><strong>SKILLS USED:</strong> Wireframing, Illustrator, HTML, CSS</p>
+
+							<hr/>
+
+							<h3>Wireframe</h3>
+
+							<img src="images/cc_wireframe.png" alt="">
+
+							<hr/>
+
+							<h3>Visual Mockup</h3>
+
+							<img src="images/cc_mockup.png" alt="">
+
+							<hr/>
+
+							<h3>View Site</h3>
+
+							<a href="http://humayunk.github.io/cchomepage/" target="_blank"><img src="images/images_06.png" alt=""></a>
+				      </div>
+				      <div class="modal-footer">
+				        <button type="button" class="modal-button" data-dismiss="modal">Close</button>
+				      </div>
+				    </div>
+				  </div>
+				</div>
 
 				<!-- Portfolio Image 3 -->
-				<div class="col-md-4">
-					<div class="grid mask">
-						<figure>
-							<img src="images/images_09.png" alt="">
-							<figcaption>
-								<h5>Just Uplift Me</h5>
-								<a href="http://justuplift.me/" class="button-full-small" target="blank">Full View</a>
-							</figcaption>
-							<!-- /figcaption -->
-						</figure>
-						<!-- /figure -->
-					</div>
-					<!-- /grid mask -->
-				</div>
-				<!-- /col -->
 
-				<!-- Portfolio Image 4 -->
 				<div class="col-md-4">
 					<div class="grid mask">
 						<figure>
-							<img src="images/images_14.png" alt="">
+							<a data-toggle="modal" data-target="#listlyModal" href="#listlyModal"><img class="img-responsive" src="images/listly_portfolio.png" alt=""></a>
+
+							<!--
 							<figcaption>
 								<h5>Listly</h5>
-								<a href="http://humayunk.github.io/shopping-app/" class="button-full-small" target="blank">Full View</a>
+								<a data-toggle="modal" data-target="#listlyModal" href="#listlyModal" class="button-full-small" target="blank">Full View</a>
 							</figcaption>
+							-->
 							<!-- /figcaption -->
 						</figure>
 						<!-- /figure -->
@@ -187,16 +259,115 @@
 					<!-- /grid mask -->
 				</div>
 				<!-- /col -->
+				
+				<!-- Modal 3 -->
+				
+				<div id="listlyModal" class="modal fade">
+				  <div class="modal-dialog">
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+				        <h4 class="modal-title">Lucova Home Page Concept</h4>
+				      </div>
+				      <div class="modal-body">
+							<p><strong>PROJECT:</strong> This was a shopping list project for my front-end web development course with Thinkful. The assignement required the user to be able to submit an item to the list, check it off, and remove it permenantly. It was primary a means to get hands-on experience with jQuery.  </p>
+
+							<p><strong>SKILLS USED:</strong> Wireframing, Illustrator, HTML, CSS, jQuery</p>
+
+							<hr/>
+
+							<h3>View the App</h3>
+
+							<a href="http://humayunk.github.io/shopping-app/" target="_blank"><img src="images/images_14.png" alt=""></a>
+				      </div>
+				      <div class="modal-footer">
+				        <button type="button" class="modal-button" data-dismiss="modal">Close</button>
+				      </div>
+				    </div>
+				  </div>
+				</div>
+
+
+				<!-- Portfolio Image 4 -->
+
+				<div class="col-md-4">
+					<div class="grid mask">
+						<figure>
+							<a data-toggle="modal" data-target="#postersModal" href="#postersModal" ><img class="img-responsive" src="images/kissme_hold.png" alt=""></a>
+							
+							<!--
+							<figcaption>
+								<h5>Posters</h5>
+								<a data-toggle="modal" data-target="#postersModal" href="#postersModal" class="button-full-small" target="blank">Full View</a>
+							</figcaption>
+
+							-->
+							<!-- /figcaption -->
+						</figure>
+						<!-- /figure -->
+					</div>
+					<!-- /grid mask -->
+				</div>
+				<!-- /col -->
+
+					<!-- Modal 4 -->
+				
+				<div id="postersModal" class="modal fade">
+				  <div class="modal-dialog">
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+				        <h4 class="modal-title">Lucova Home Page Concept</h4>
+				      </div>
+				      <div class="modal-body">
+							<p><strong>PROJECT:</strong> I created these series of posters for an online poster and prints shop hosted on shopify called <a href="http://justuplift.me">Just Uplift Me.</a>  </p>
+
+							<p><strong>SKILLS USED:</strong> Sketching, Illustrator</p>
+
+							<hr/>
+
+							<h3>Poster #1</h3>
+
+							
+							<img src="images/churchill_wall2.jpg" alt="">
+
+							<hr/>
+
+							<h3>Poster #2</h3>
+
+							<img src="images/einstein_wall2.jpg" alt="">
+
+							<hr/>
+
+							<h3>Poster #3</h3>
+
+							<img src="images/kissme_wall2.jpg" alt="">
+				      </div>
+				      <div class="modal-footer">
+				        <button type="button" class="modal-button" data-dismiss="modal">Close</button>
+				      </div>
+				    </div>
+				  </div>
+				</div>
+				
 
 				<!-- Portfolio Image 5 -->
+
 				<div class="col-md-4">
 					<div class="grid mask">
 						<figure>
-							<img src="images/portfolio1_03.png" alt="">
+							<a data-toggle="modal" data-target="#identityModal" href="#identityModal" > <img class="img-responsive" src="images/identity.png" alt=""> </a> 
+
+							<!-- 
 							<figcaption>
-								<h5>Jottly</h5>
-								<a href="http://humayunk.github.io/Jottly/" class="button-full-small" target="blank">Full View</a>
+								<h5>Identity Design</h5>
+								<a data-toggle="modal" data-target="#identityModal" href="#identityModal" class="button-full-small" target="blank">Full View</a>
+
+								
 							</figcaption>
+
+							-- > 
+
 							<!-- /figcaption -->
 						</figure>
 						<!-- /figure -->
@@ -205,15 +376,75 @@
 				</div>
 				<!-- /col -->
 
-				<!-- Portfolio Image 6 -->
+					<!-- Modal 5 -->
+				
+				<div id="identityModal" class="modal fade">
+				  <div class="modal-dialog">
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+				        <h4 class="modal-title">Lucova Home Page Concept</h4>
+				      </div>
+				      <div class="modal-body">
+							<p><strong>PROJECT:</strong> Pocket Labs is a small mobile dev shop that employs a human-centred design process to help your brand create apps that people love to use. They partner with businesses, large and small, to understand the needs of their audience and how to best reach them through mobile. They wanted a mark that was:</p>
+
+							<ul>
+								<li>established</li>
+								<li>friendly</li>
+								<li>balanced between smart, technical, and human</li>
+								<li>balanced between professinoal and fun</li>
+							</ul>
+
+							<p><strong>SKILLS USED:</strong> Sketching, Illustrator</p>
+
+							<hr/>
+
+							<h3>Sketching Process</h3>
+
+							
+							<img src="images/sketch.png" alt="">
+
+							<hr/>
+
+							<h3>Vector Concepts</h3>
+
+							<img src="images/identiy_concepts.jpg" alt="">
+
+							<hr/>
+
+							<h3>Final Identiy</h3>
+
+							<img src="images/identity_logo.png" alt="">
+
+							<hr/>
+
+							<h3>Business Cards</h3>
+
+							<img src="images/identity_bc.png" alt="">
+
+				      </div>
+				      <div class="modal-footer">
+				        <button type="button" class="modal-button" data-dismiss="modal">Close</button>
+				      </div>
+				    </div>
+				  </div>
+				</div>
+
+		<!-- Portfolio Image 6 -->
+
 				<div class="col-md-4">
 					<div class="grid mask">
 						<figure>
-							<img src="images/images_17.png" alt="">
+							<a data-toggle="modal" data-target="#iconModal" href="#iconModal"><img class="img-responsive" src="images/illustration.png" alt=""></a>
+							
+							<!-- 
+
 							<figcaption>
-								<h5>4 Icon Challange</h5>
-								<a href="https://dribbble.com/shots/1771036-4-Icon-Challange?list=users&offset=1" class="button-full-small" target="blank">Full View</a>
+								<h5>Vector Art</h5>
+								<a data-toggle="modal" data-target="#iconModal" href="#iconModal" class="button-full-small" target="blank">Full View
 							</figcaption>
+
+							-->
 							<!-- /figcaption -->
 						</figure>
 						<!-- /figure -->
@@ -222,9 +453,47 @@
 				</div>
 				<!-- /col -->
 
-			</div>
-		</div>
-	</div>
+					<!-- Modal 6 -->
+				
+				<div id="iconModal" class="modal fade">
+				  <div class="modal-dialog">
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+				        <h4 class="modal-title">Lucova Home Page Concept</h4>
+				      </div>
+				      <div class="modal-body">
+							<p><strong>PROJECT:</strong> These are a series of personal projects consisting of illustrations and icons. From doing a vector portrait for a friend's LinkedIn profile, doing the four icon challenge for my favourite movie, to illustrating my favourite poet, these personal projects require me to strech my skills and learn something new each time. </p>
+
+							<p><strong>SKILLS USED:</strong> Sketching, Illustrator</p>
+
+							<hr/>
+
+							<h3>Vector Portrait</h3>
+
+							
+							<img src="images/daniel.png" alt="">
+
+							<hr/>
+
+							<h3>Four Icon Challenge</h3>
+
+							<img src="images/gladiator.png" alt="">
+
+							<hr/>
+
+							<h3>Rumi Illustration</h3>
+
+							<img src="images/rumi.png" alt="">
+
+
+				      </div>
+				      <div class="modal-footer">
+				        <button type="button" class="modal-button" data-dismiss="modal">Close</button>
+				      </div>
+				    </div>
+				  </div>
+				</div>
 </section>
 
 <footer id="contact">
@@ -243,9 +512,11 @@
 </footer>
 
 
+
+
 <!-- Core JavaScript Files -->
 
-	
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script src="bootstrap.min.js"></script>
 <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>

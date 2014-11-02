@@ -118,7 +118,7 @@ a:focus {
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
     transition: background .3s ease-in-out;
-    color: rgba(255, 255, 255, 0.5);
+    color: #fff;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -271,16 +271,17 @@ a:focus {
 }
 
 .brand-heading {
-    font-size: 48px;
+    font-size: 68px !important;
     font-weight: 600;
     letter-spacing: -0.05em;
     color: #fff;
 }
 
 .intro-text {
-    font-size: 18px;
+    font-size: 22px !important;
     font-weight: 100;
     text-align: center;
+    color: #fff;
 }
 
 @media(min-width:767px) {
@@ -472,10 +473,11 @@ a:focus {
 .service-section {
     min-height: 400px;
     width: 100%;
-    padding: 50px 0;
+    padding: 70px 0;
     margin-top: -150px;
     color: #666665;
     background-color: #f2f2f2;
+    margin-bottom: 50px;
 }
 
 .service-section h2 {
@@ -506,6 +508,8 @@ a:focus {
     padding-top: 25px;
 }
 
+/* -- Portfolio -- */
+
 .portfolio-section h2 {
     margin-top: 30px;
 }
@@ -514,9 +518,10 @@ a:focus {
     min-height: 700px;
     width: 100%;
     padding: 50px 0;
-    margin-top: -200px;
+    margin-top: -250px;
     color: #666665;
     background-color: #fff;
+    margin-bottom: 50px;
 }
 
 .portfolio-section a {
@@ -620,9 +625,13 @@ a:focus {
 }
 
 /* Caption Style */
+
+/*
+
 .mask figure {
     overflow: hidden;
 }
+
 
 .mask figure img {
     -webkit-transition: -webkit-transform 0.4s;
@@ -637,6 +646,8 @@ a:focus {
     -ms-transform: translateY(-30px);
     transform: translateY(-30px);
 }
+
+
 
 .mask figcaption {
     height: 50px;
@@ -653,6 +664,8 @@ a:focus {
     transition: transform 0.4s, opacity 0.1s 0.3s;
 }
 
+
+
 .mask figure:hover figcaption,
 .mask figure.cs-hover figcaption {
     opacity: 1;
@@ -665,12 +678,27 @@ a:focus {
     transition: transform 0.4s, opacity 0.1s;
 }
 
+
+
 .mask figcaption a {
     position: absolute;
     top:10px;
     bottom: 10px;
     right: 30px;
+    color: #fff !important;
 }
+
+*/
+
+.mask figure img {
+    opacity: 0.85;
+}
+
+.mask figure img:hover {
+    opacity: 1.0;
+}
+
+/* -- Footer -- */
 
 .getintouch {
     width: 100%;
@@ -751,7 +779,7 @@ a:focus {
     text-transform: uppercase;
     font-weight: 400;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 15px;
 }
 
 .button:hover {
@@ -767,7 +795,7 @@ a:focus {
     -moz-border-radius: 3px; 
     -webkit-border-radius: 3px; 
     border-radius: 3px;
-    color: #ffffff;
+    color: #ffffff !important;
     background: #e67e22 !important;
     border: none !important;
     font-family: 'Montserrat', sans-serif;
@@ -784,6 +812,16 @@ a:focus {
 }
 
 .button-full-small:hover {
+    color: #ffffff !important;
+    background: #e67e22 ;
+}
+
+.button-full-small:active {
+    color: #ffffff !important;
+    background: #e67e22 !important;
+}
+
+.button-full-small:visited {
     color: #ffffff !important;
     background: #e67e22 !important;
 }
