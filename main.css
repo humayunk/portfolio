@@ -170,7 +170,7 @@ a:focus {
         color: #e67e22 !important;
     }
     .brand-heading {
-        font-size: 36px !important;
+        font-size: 32px;
         font-weight: 600;
         letter-spacing: -0.05em;
         color: #fff;
